@@ -1,0 +1,20 @@
+- https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals
+- https://mvnrepository.com/
+
+### package / run
+~~~
+$ ./mvnw package
+$ java -jar target/demo-0.0.1-SNAPSHOT.jar
+$ curl 0.0.0.0:8080
+~~~
+
+### run
+~~~
+$ ./mvnw spring-boot:run
+$ curl 0.0.0.0:8080
+~~~
+
+### app dependencies
+~~~
+vim pom.xml
+~~~
